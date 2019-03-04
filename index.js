@@ -11,7 +11,7 @@ const bot = new TelegramBot(token, {polling: true});
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   if (msg.text == 'привет' || msg.text == 'Привет'){
-    bot.sendMessage(chatId, 'И тебе привет 3');
+    bot.sendMessage(chatId, 'И тебе привет 27');
   } else {
     bot.sendMessage(chatId, 'Сообщение получено!');
   };
